@@ -48,3 +48,15 @@ body {
 .safe-bottom {
   padding-bottom: env(safe-area-inset-bottom);
 }
+/* Better mobile feel */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+}
